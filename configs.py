@@ -6,3 +6,5 @@ class Configs:
     MAX_WAITING_TIME = 20
     DATA_DIR = "page_content"
     TOP_ELEMENT = "div"
+    PERSIST_DIR = "./storage"
+    IMAGE_DIR = "static"
