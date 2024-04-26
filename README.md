@@ -22,7 +22,12 @@
    ```
    conda activate chatbot
    ```
-6. Run the bot
+6. Edit configs.py as per instruction provided in it
+7. Run the web crawler
+   ```
+   python web_crawler.py
+   ```
+8. Run chatbot
    ```
    streamlit run main.py
    ```
