@@ -91,8 +91,3 @@ class Utils:
         except IndexError as e:
             print(e, 'url:', url)
             return url
-
-
-if __name__ == '__main__':
-    utils = Utils()
-    utils.preprocess_image_url('https://docs/aryaka.com/download/attachments/1542430/UntticketingIcon.png?version=1&modificationDate=1711559163535&cacheVersion=1&api=v2')
